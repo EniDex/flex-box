@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+ 
+  @media only screen and (max-width: 1440px){
+   
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:hsla(0, 0%, 100%, 0.75) ;
+    font-family: 'Lexend Deca', sans-serif;
+}
+.container{
+     height: 100vh; 
+    width: auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 17rem;
+    font-family: 'Lexend Deca', sans-serif;
+    
+}
+.container h2{
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    margin-right: 9rem;
+    color: hsla(0, 0%, 100%, 0.75); ;
+}
+img{
+    padding-top: 2rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    margin-right: 12rem;
+}
+.first-section{
+background: hsl(31, 77%, 52%);
+width: 20vw;
+height: 65%;
+padding-left: 2rem;
+color:  hsla(0, 0%, 100%, 0.75);;
+
+}
+.second-section{
+ 
+    background:  hsl(184, 100%, 22%);
+    width: 20vw;
+    height: 65%;
+    color:  hsla(0, 0%, 100%, 0.75);
+    padding-left: 1rem;
+
+}
+.third-section{
+
+    background: hsl(179, 100%, 13%);
+    width: 20vw;
+    height: 65%;
+    color:  hsla(0, 0%, 100%, 0.75);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+ .first-section button{
+    margin-top: 4rem;
+    border: 10px solid hsla(0, 0%, 100%, 0.75);
+    border-radius: 31%;
+    background-color: hsla(0, 0%, 100%, 0.75);
+    color:hsl(31, 77%, 52%) ;
+    margin-right: 3rem;
+   
+}
+.second-section button{
+    margin-top: 4rem;
+    border: 10px solid hsla(0, 0%, 100%, 0.75);
+    border-radius: 31%;
+    background-color: hsla(0, 0%, 100%, 0.75);
+    color:hsl(184, 100%, 22%);
+    margin-right: 3rem;
+    
+
+}
+.third-section button{
+    margin-top: 4rem;
+    border: 10px solid hsla(0, 0%, 100%, 0.75);
+    border-radius: 31%;
+    background-color: hsla(0, 0%, 100%, 0.75);
+    color:hsl(179, 100%, 13%);
+    margin-right: 3rem;
+   
+}
+p{
+text-align:start;
+font-family: 'Lexend Deca', sans-serif;
+font-size: 15px;
+}
+
+
+.main{
+    display: grid;
+    height: 50vh;
+    background-color: brown;
+    width: 50%;
+    margin: 10rem 20rem;
+   
+   grid-template-areas: 
+   'a a b'
+   'c  d d '
+   'c e e'
+  
+        ;
+}
+.orange{
+    background: orangered;
+ /* height: 20vh;
+    width: 20%;  */
+    grid-area: a;
+}
+.yellow{
+    background: rgb(250, 171, 0);
+     /* height:20vh ;
+    width: 10%;  */
+    grid-area: b;
+}
+.green{
+    background: green;
+    /* height: 20vh;
+       width: 25%; */
+       grid-area: c;
+}
+.blue{
+    background: rgb(63, 63, 226);
+    /* height: 10vh;
+       width: 25%; */
+       grid-area: d;
+      
+}
+.blu{
+    background: rgb(63, 63, 226);
+     /* height: 10vh;
+       width: 25%; */
+       grid-area: e; 
+}
+.main div{
+    margin: 2px;
+}
+
